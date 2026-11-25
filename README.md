@@ -56,3 +56,29 @@ You can compile and run this program using any standard C compiler (like GCC on 
 2. Compile the source code:
    ```bash
    gcc voting_system.c -o voting_system
+   ```
+3. Run the executable:
+   * **Linux / macOS:**
+     ```bash
+     ./voting_system
+     ```
+   * **Windows:**
+     ```cmd
+     voting_system.exe
+     ```
+
+---
+
+## 🔮 Future Enhancements
+
+* **Data Persistence on Startup:** Implement automatic loading of previously registered voters from `voters.txt` back into the runtime `voters` array when the program launches.
+* **Admin Authentication:** Add a password-protected admin login panel to manage candidates, view confidential summary reports, and reset election data.
+* **Dynamic Candidate Management:** Allow administrators to add, update, or remove candidates dynamically during runtime instead of using a pre-defined static array.
+* **Enhanced Security:** Implement encrypted file storage for voter credentials and voting status to prevent manual tampering with text files.
+* **Graphical User Interface (GUI):** Migrate the console application to a desktop GUI using tools like GTK, Qt, or a web-based interface for better user experience.
+
+---
+
+## 📄 License
+
+This project is created for educational purposes as part of academic coursework in C programming.
